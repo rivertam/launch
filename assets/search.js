@@ -97,7 +97,7 @@ function parseCom(com) {
       search();
     }
   }
-
+  
   // handle "twt"" command
   else if (com.startsWith("twt")==true) {
     // if "twt" command is matched, open twitter
@@ -166,9 +166,9 @@ function parseCom(com) {
     }
   }
 
-  // handle "ttv"" command
+  // handle "twitch"" command
   else if (com.startsWith("twitch")==true) {
-    // if "ttv" command is matched, open twitch
+    // if "twitch" command is matched, open twitch
     if (/^ttv$/i.test(com)) {
       nav("http://www.twitch.tv/");
     }
